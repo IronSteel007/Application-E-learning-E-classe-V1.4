@@ -1,0 +1,103 @@
+
+.cool-w {
+    width: 95% ! important;
+}
+
+.divcont {
+    width: 80% !important;
+}
+
+
+.marg-t {
+    margin-top: 130px !important;
+}
+
+.body-colo {
+    background: linear-gradient( 90deg, #00C1FE 19.39%, #FAFFC1 96.69%) !important;
+}
+
+.e-c {
+    border-left: 10px solid #00C1FE !important;
+}
+
+.bor-red {
+    border-radius: 2rem!important;
+    padding: 50px!important;
+}
+
+.botn-pri {
+    color: #fff;
+    background-color: #00C1FE !important;
+    border-color: #00C1FE !important;
+}
+
+.card {
+    border: none ! important;
+}
+
+.avatar {
+    height: 140px !important;
+    width: 140px !important;
+}
+
+.back-colo {
+    background-color: #FAFFC1 !important;
+}
+
+.navul {
+    width: 90%;
+}
+
+.navul li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sidenav {
+    width: 300px;
+    background-color: #FAFFC1 !important;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1dd89a;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #0c10f0;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .sm {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
